@@ -1,86 +1,96 @@
 # Paper Reading List
 
-A curated list of papers related to generative models, interactive video generation,
-multimodal understanding, and efficient systems.
-
 ## Table of Contents
-
 1. [Memory](#memory)
-2. [Survey](#survey)
-3. [Interactive Video Generation](#interactive-video-generation)
+2. [survey](#survey)
+3. [InteractVGen](#interactvgen)
 4. [Architecture](#architecture)
-5. [Acceleration & Real-time](#acceleration--real-time)
-6. [Multimodal Understanding](#multimodal-understanding)
-7. [World Model](#world-model)
-8. [3D & Geometry](#3d--geometry)
-9. [Data](#data)
-10. [Audio](#audio)
-
----
+5. [Accelerate/Real-time](#accelerate-real-time)
+6. [MM Understanding](#mm-understanding)
+7. [Consistency](#consistency)
+8. [Interpretability](#interpretability)
+9. [Evaluation](#evaluation)
+10. [self-supervised](#self-supervised)
+11. [3D/4D](#3d-4d)
+12. [Cache](#cache)
+13. [Data](#data)
+14. [Audio](#audio)
 
 ## Memory
+* [SLOWFAST-VGEN: SLOW-FAST LEARNING FOR ACTION-DRIVEN LONG VIDEO GENERATION](https://arxiv.org/pdf/2410.23277)
+* [VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory](https://arxiv.org/abs/2506.18903)
+* [Video World Models with Long-term Spatial Memory](https://spmem.github.io/)
+* [Packing Input Frame Context in Next-Frame Prediction Models f...eo Generation](https://lllyasviel.github.io/frame_pack_gitpage/)
+* [VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory](https://v-mem.github.io/)
+* [WORLDMEM: Long-term Consistent World Simulation with Memory](https://xizaoqu.github.io/worldmem/)
+* [History-Guided Video Diffusion](https://www.boyuan.space/history-guidance/)
+* [Mixture of Contexts for Long Video Generation](https://primecai.github.io/moc/)
 
-* [SLOWFAST-VGEN: Slow-Fast Learning for Action-Driven Long Video Generation](https://arxiv.org/pdf/2410.23277)
-
----
-
-## Survey
-
+## survey
 * [A Survey of Interactive Generative Video](https://arxiv.org/pdf/2504.21853)
+* [Genie3 - Simulate The World [Exclusive Interview]](https://www.youtube.com/watch?v=ekgvWeHidJs)
+* [Position: Interactive Generative Video as Next-Generation Game Engine](https://arxiv.org/abs/2506.17210)
 
----
-
-## Interactive Video Generation
-
-* [GameGen-X: Interactive Open-World Game Video Generation](https://arxiv.org/abs/2411.00769)
-* [WorldDreamer: Towards General World Models for Video Generation](https://arxiv.org/abs/2404.00285)
-* [SEED-Interactive: Interactive Video Generation with State-Aware Control](https://arxiv.org/abs/2403.16075)
-
----
+## InteractVGen
+* [GameGen-X: Interactive Open-World Game Video Generation.](https://arxiv.org/abs/2411.00769)
+* [Interactive Video Generation for Video Games](https://arxiv.org/abs/2405.15111)
+* [Layered Neural Atlases for Consistent Scene Generation](https://arxiv.org/abs/2409.11511)
+* [GameDreamer: Generative Gaming Level Design](https://arxiv.org/abs/2404.06001)
+* [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
+* [DIAMOND: Diffusion-based Interactive World Modeling](https://arxiv.org/abs/2405.12399)
+* [MineWorld: An Open-Source Minecraft-like World Model](https://arxiv.org/abs/2411.00955)
+* [Vid2World: Crafting Video Diffusion Models to Interactive World Models](https://knightnemo.github.io/vid2world/)
 
 ## Architecture
+* [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
+* [Diffusion Transformer](https://arxiv.org/abs/2212.09748)
+* [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
+* [Rectified Flow: A Unified Framework for Generative Modeling](https://arxiv.org/abs/2209.03003)
+* [Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512)
+* [Consistency Models](https://arxiv.org/abs/2303.01469)
 
-* [Sora: A Review on Video Generation Models](https://arxiv.org/abs/2402.17177)
-* [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
-
----
-
-## Acceleration & Real-time
-
+## Accelerate/Real-time
 * [StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation](https://arxiv.org/pdf/2312.12491)
 
----
-
-## Multimodal Understanding
-
-* [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model](https://arxiv.org/abs/2306.02858)
+## MM Understanding
+* [InternVideo2: Scaling Video Foundation Models for Multimodal Understanding](https://arxiv.org/abs/2403.15377)
 * [VideoChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models](https://arxiv.org/abs/2306.05424)
+* [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858)
 
----
+## Consistency
+* [Temporal Consistency for Video Diffusion Models](https://arxiv.org/abs/2307.04725)
+* [Consistent Video Generation with Diffusion Models](https://arxiv.org/abs/2407.14187)
+* [Long-Term Temporal Consistency in Video Generation](https://arxiv.org/abs/2409.18602)
 
-## World Model
+## Interpretability
+* [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2403.06058)
+* [Diffusion Models and the Manifold Hypothesis](https://arxiv.org/abs/2401.01887)
 
-* [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
-* [DreamerV3: Learning World Models for Continuous Control](https://arxiv.org/abs/2301.04104)
+## Evaluation
+* [Video Generation Benchmarks: A Survey](https://arxiv.org/abs/2406.11175)
+* [VBench: Comprehensive Benchmark Suite for Video Generation Models](https://arxiv.org/abs/2311.17982)
+* [EvalCrafter: Benchmarking Video Generation](https://arxiv.org/abs/2403.07656)
 
----
+## self-supervised
+* [HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units](https://arxiv.org/abs/2106.07447)
+* [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)
+* [WavLM: Large-Scale Self-Supervised Pre-training for Full Stack Speech Processing](https://arxiv.org/abs/2110.13900)
 
-## 3D & Geometry
-
-* [Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079)
+## 3D/4D
+* [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079)
 * [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/abs/2310.08528)
+* [LGM: Large Gaussian Models for 3D Generation](https://arxiv.org/abs/2402.12563)
 
----
+## Cache
+* [KV Cache Compression in Transformers](https://arxiv.org/abs/2402.04623)
+* [Speculative Decoding](https://arxiv.org/abs/2211.17192)
+* [PagedAttention](https://arxiv.org/abs/2309.06180)
 
 ## Data
-
 * [SpatialVID: A Large-Scale Video Dataset with Spatial Annotations](https://nju-3dv.github.io/projects/SpatialVID/)
 * [Sekai: A Video Dataset towards World Exploration](https://lixsp11.github.io/sekai-project/)
 * [Dynamic Camera Poses and Where to Find Them](https://research.nvidia.com/labs/dir/dynpose-100k/)
 
----
-
 ## Audio
-
 * [DIFF-FOLEY: Synchronized Video-to-Audio Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2306.17203)
 * [FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds](https://github.com/open-mmlab/FoleyCrafter)
