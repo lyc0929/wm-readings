@@ -15,6 +15,7 @@
 12. [Cache](#cache)
 13. [Data](#data)
 14. [Audio](#audio)
+15. [Audio&Video Gen](#audio&video gen)
 
 ## Memory
 * [SLOWFAST-VGEN: SLOW-FAST LEARNING FOR ACTION-DRIVEN LONG VIDEO GENERATION](https://arxiv.org/pdf/2410.23277)
@@ -40,6 +41,7 @@
 * [DIAMOND: Diffusion-based Interactive World Modeling](https://arxiv.org/abs/2405.12399)
 * [MineWorld: An Open-Source Minecraft-like World Model](https://arxiv.org/abs/2411.00955)
 * [Vid2World: Crafting Video Diffusion Models to Interactive World Models](https://knightnemo.github.io/vid2world/)
+* [Yume: An Interactive World Generation Model](https://github.com/stdstu12/YUME)
 
 ## Architecture
 * [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
@@ -61,6 +63,7 @@
 * [Temporal Consistency for Video Diffusion Models](https://arxiv.org/abs/2307.04725)
 * [Consistent Video Generation with Diffusion Models](https://arxiv.org/abs/2407.14187)
 * [Long-Term Temporal Consistency in Video Generation](https://arxiv.org/abs/2409.18602)
+* [LongVie 2: Multimodal Controllable Ultra-Long Video World Model](https://github.com/Vchitect/LongVie#%EF%B8%8F-control-signal-extraction)
 
 ## Interpretability
 * [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2403.06058)
@@ -94,3 +97,7 @@
 ## Audio
 * [DIFF-FOLEY: Synchronized Video-to-Audio Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2306.17203)
 * [FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds](https://github.com/open-mmlab/FoleyCrafter)
+
+## audio&video gen
+* [Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation](https://github.com/character-ai/Ovi)
+* [LTX-2](https://github.com/Lightricks/LTX-2)
