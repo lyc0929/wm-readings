@@ -15,7 +15,7 @@
 12. [Cache](#cache)
 13. [Data](#data)
 14. [Audio](#audio)
-15. [Audio&Video Gen](#audio&video gen)
+15. [Audio&Video Gen](#audio&video-gen)
 
 ## Memory
 * [SLOWFAST-VGEN: SLOW-FAST LEARNING FOR ACTION-DRIVEN LONG VIDEO GENERATION](https://arxiv.org/pdf/2410.23277)
@@ -98,6 +98,6 @@
 * [DIFF-FOLEY: Synchronized Video-to-Audio Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2306.17203)
 * [FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds](https://github.com/open-mmlab/FoleyCrafter)
 
-## audio&video gen
+## audio&video-gen
 * [Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation](https://github.com/character-ai/Ovi)
 * [LTX-2](https://github.com/Lightricks/LTX-2)
