@@ -42,6 +42,7 @@
 * [MineWorld: An Open-Source Minecraft-like World Model](https://arxiv.org/abs/2411.00955)
 * [Vid2World: Crafting Video Diffusion Models to Interactive World Models](https://knightnemo.github.io/vid2world/)
 * [Yume: An Interactive World Generation Model](https://github.com/stdstu12/YUME)
+* [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](https://github.com/tianweiy/CausVid)
 
 ## Architecture
 * [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
