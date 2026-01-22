@@ -43,6 +43,7 @@
 * [Vid2World: Crafting Video Diffusion Models to Interactive World Models](https://knightnemo.github.io/vid2world/)
 * [Yume: An Interactive World Generation Model](https://github.com/stdstu12/YUME)
 * [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](https://github.com/tianweiy/CausVid)
+* [LongLive: Real-time Interactive Long Video Generation](https://github.com/NVlabs/LongLive?tab=readme-ov-file)
 
 ## Architecture
 * [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
